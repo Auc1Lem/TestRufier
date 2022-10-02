@@ -3,6 +3,7 @@ from PyQt5.QtWidgets import  QApplication, QWidget, QLabel , QPushButton , QVBox
 from instr import *
 from secondWindow import *
 
+
 class MainWindow (QWidget):
     def __init__(self):
         super().__init__()
