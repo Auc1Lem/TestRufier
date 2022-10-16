@@ -5,7 +5,7 @@ from secondWindow import *
 
 
 class MainWindow (QWidget):
-    def __init__(self):
+    def __init__(self,):
         super().__init__()
         self.set_appear()
         self.initUI()
